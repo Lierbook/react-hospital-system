@@ -1,0 +1,39 @@
+.title-img {
+    width: 100%;
+    height: 150px;
+}
+
+.jieshao {
+    background-color: #ffffff;
+    padding-top: 10px;
+    border-radius: 10px;
+
+    h3 {
+        text-align: center;
+    }
+
+    .description {
+        margin: 10px 20px 0 20px !important;
+        color: #726f6f;
+        font-size: 15px;
+        line-height: 24px;
+
+        .desc {
+            // 溢出用省略号显示
+            text-overflow: ellipsis;
+            // 超出的文本隐藏
+            overflow: hidden;
+            // 将对象作为弹性伸缩盒子模型显示。
+            display: -webkit-box;
+            // 从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）
+            -webkit-box-orient: vertical;
+            //指定显示多少行
+            -webkit-line-clamp: 4;
+        }
+        .det {
+            color:rgb(46, 150, 235);
+            position: relative;
+            left: 300px;
+        }
+    }
+}

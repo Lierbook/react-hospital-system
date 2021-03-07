@@ -1,0 +1,30 @@
+.am-navbar {
+    background: rgb(46, 150, 235) !important;
+    position  : fixed;
+    top       : 0px;
+    height    : 55px;
+    z-index   : 100;
+    width     : 100%;
+  
+    .am-navbar-left {
+      div {
+        font-size: 14px;
+  
+        svg {
+          vertical-align: middle;
+          margin-top    : -5px;
+        }
+      }
+    }
+  
+    .am-navbar-title {
+      .am-search {
+        width           : 150px;
+        background-color: transparent !important;
+      }
+  
+      .am-search-cancel {
+        margin-right: -40px !important;
+      }
+    }
+  }

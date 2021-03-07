@@ -1,0 +1,71 @@
+.user {
+
+    .guess {
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: #ffffff;
+        padding: 15px 15px 9px 15px;
+        width: 100%;
+        box-sizing: border-box
+    }
+
+    .back-img {
+        background-image: url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201502%2F20%2F20150220225712_MVkWU.thumb.700_0.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1617160306&t=b716951705e2a6813ca669cee2a64e52");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: 160px;
+        color: #ffffff;
+
+        img {
+            height: 70px;
+            width: 70px;
+            // border: 2px solid black;
+            border-radius: 50%;
+            margin: 10px 152.6px;
+        }
+
+        .user-name {
+            // width: 30px;
+            display: block;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        .user-number {
+            // width: 83px;
+            display: block;
+            text-align: center;
+            margin: 0px auto;
+        }
+    }
+
+    .user-function {
+
+        background-color: #ffffff;
+        padding: 10px 10px;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .user-record {
+        background-color: #ffffff;
+        padding: 10px 10px;
+        display: block;
+        border-radius: 10px;
+
+        .record-title {
+            padding-bottom: 5px;
+            border-bottom: 2px solid #cccccc;
+        }
+    }
+    .logout-botton{
+        padding: 0 30px;
+        margin-top: 20px;
+    }
+}
+
+.am-grid-text {
+    font-size: 13px !important;
+}

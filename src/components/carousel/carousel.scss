@@ -1,0 +1,32 @@
+.am-wingblank {
+    margin: 0px !important;
+    // border-bottom: rgb(202, 198, 198) 5px solid;
+    background-color: #ffffff;
+
+    .Carousel-div {
+        .Carousel-img {
+            width: 375.2px;
+            height: 190px;
+        }
+    }
+
+    .icon-gaokaobei {
+        line-height: 36px;
+        float: left;
+        font-size: 16px;
+        color: rgb(46, 150, 235);
+    }
+
+    .Carousel2 {
+        // height: 40px !important;
+        display: inline-block !important;
+        width: 90% !important;
+
+        .v-item {
+            height: 40px;
+            line-height: 36px;
+            padding-left: 5px;
+            font-size: 14px;
+        }
+    }
+}
